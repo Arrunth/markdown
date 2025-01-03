@@ -19,6 +19,6 @@ class EmptyBlockSyntax extends BlockSyntax {
     parser.advance();
 
     // Don't actually emit anything.
-    return null;
+    return Element('p', []);
   }
 }
